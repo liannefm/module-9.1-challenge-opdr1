@@ -29,6 +29,8 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
         $name = '';
         $email = '';
         $comment = '';
+
+        header('Location: ' . $_SERVER['PHP_SELF']);
     }
 }
 
